@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+img {
+    text-align: center;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    background-color: #EF2F2F;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}

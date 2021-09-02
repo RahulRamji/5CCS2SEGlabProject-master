@@ -1,0 +1,176 @@
+@CHARSET "UTF-8";
+.header {
+    background: #EF2F2F;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.50);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.show {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+#officer {
+    height: 100px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    height: 10px;
+    width: 40px;
+    background: #EF2F2F;
+    border-radius: 71px;
+    color: white;
+}
+
+.upper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 40px;
+    width: 70%
+}
+
+.lower{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 800px;
+    padding: 20px;
+    background: #EF2F2F;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.50); 
+    border-radius: 71px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.elo {
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin-left: 35px;
+    height: 230px;
+    width: 650px;
+    background: #EF2F2F;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.50); 
+    border-radius: 71px;
+    color: white;
+}
+
+.pf {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; 
+    text-align: center;
+}
+
+#pic {
+    
+    height: 200px;
+    width: auto;
+    align-self: center;
+}
+
+#name {
+    color: #EF2F2F;
+    font-size: 25px;
+}
+
+label, textarea {
+    margin-left: 10px;
+
+}
+
+form{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#edit {
+    text-decoration: underline;
+    color: white;
+    margin-left: 90%;
+    margin-top: -5px;
+}
+
+input[type=text], input[type=date], input[type=tel],select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    align-self: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+#date {
+    margin-top: -15px;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.elo h1 {
+    font-size: 200px;
+    margin: -80px;
+}
+
+h2{
+    margin: 10px;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom:25px;
+    border: 1px solid red;
+    width: 70%;
+}
+
+.lower h3 {
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: 10;
+}
+
+.lower h2 {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: 10;
+}

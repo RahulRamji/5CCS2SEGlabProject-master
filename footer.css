@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+.footer {
+  font-family: "Bree Serif", serif;
+  align-self: flex-end;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EF2F2F;
+  color: white;
+  text-align: center;
+  border-top: 3px black;
+}
+
+a {
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vertical-menu {
+    display: flex;
+    float: left;
+    width: 20%;
+   padding-bottom: 20px;
+   flex-direction: column;
+}
+
+.vertical-menu a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
